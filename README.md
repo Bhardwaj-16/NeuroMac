@@ -1,2 +1,3 @@
 # NeuroMac
-# NeuroMac
+
+This project implements a Neural Processing Unit (NPU) as a custom IP on a Xilinx Zynq-7000 series FPGA for accelerating MNIST digit recognition in Python, quantizes the weights, and accelerates the matrix multiplication operations on a custom hardware NPU. The NPU performs 2x2 Multiply-Accumulate (MAC) operations, a fundamental building block for neural network inference. Also as of now we aren't using a camera as I feel the board itself costs much that I dont feel like spending more money on integrating a camera.
