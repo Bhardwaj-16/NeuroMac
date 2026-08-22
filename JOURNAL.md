@@ -72,6 +72,8 @@ Some of the computation is physically implemented in FPGA logic.
 
 **sigh** This is probably going to be the most time-consuming part. But then again, this is the actual hardware.
 
+<img width="1440" height="574" alt="hardware" src="https://github.com/user-attachments/assets/dc211724-974a-4e83-b7ab-3b1dfc143c78" />
+
 Today was the point where the project moved from an idea into actual hardware design.
 
 The objective was to take the core computation required by the neural-network workload and implement it as a custom hardware accelerator in Verilog, then expose that accelerator to the ARM processor inside the Zynq SoC through an AXI4-Lite interface.(Academia-ish words. I Know)
